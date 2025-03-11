@@ -1,0 +1,1001 @@
+source_ip,port,timestamp,request_pattern,category,severity,threat
+185.199.108.153,3389,1741687868,admin' OR '1'='1,SQL Injection,High,1
+51.15.37.220,21,1741690405,admin' OR '1'='1,SQL Injection,High,1
+34.201.32.74,80,1741694063,admin' OR '1'='1,SQL Injection,High,1
+198.51.100.7,22,1741702708,sqlmap/1.5,SQL Injection,High,1
+23.94.5.1,80,1741704254,nmap_scan,Reconnaissance,Medium,1
+10.0.0.3,22,1741698262,sqlmap/1.5,SQL Injection,High,1
+23.94.5.1,3389,1741704112,sqlmap/1.5,SQL Injection,High,1
+203.0.113.5,443,1741702335,/shellshock_exploit,Exploitation,High,1
+51.15.37.220,21,1741709374,/shellshock_exploit,Exploitation,High,1
+51.15.37.220,8080,1741679913,admin' OR '1'='1,SQL Injection,High,1
+10.0.0.3,25,1741693795,admin' OR '1'='1,SQL Injection,High,1
+45.33.32.156,22,1741685332,sqlmap/1.5,SQL Injection,High,1
+172.16.5.8,25,1741711746,/etc/passwd,Data Exfiltration,High,1
+45.33.32.156,21,1741684499,sqlmap/1.5,SQL Injection,High,1
+34.201.32.74,80,1741702297,sqlmap/1.5,SQL Injection,High,1
+209.58.178.32,3306,1741688310,/login,Brute Force,Medium,1
+67.205.146.11,3389,1741689887,/etc/passwd,Data Exfiltration,High,1
+172.16.5.8,21,1741712184,admin' OR '1'='1,SQL Injection,High,1
+192.168.1.1,21,1741709459,normal_request,Normal,Low,0
+45.33.32.156,22,1741711774,normal_request,Normal,Low,0
+45.33.32.156,25,1741684390,nmap_scan,Reconnaissance,Medium,1
+67.205.146.11,80,1741678446,/login,Brute Force,Medium,1
+192.168.1.1,3389,1741678164,nmap_scan,Reconnaissance,Medium,1
+34.201.32.74,443,1741709403,/etc/passwd,Data Exfiltration,High,1
+185.199.108.153,80,1741693959,/etc/passwd,Data Exfiltration,High,1
+192.168.1.1,3389,1741678969,sqlmap/1.5,SQL Injection,High,1
+172.16.5.8,80,1741707219,sqlmap/1.5,SQL Injection,High,1
+51.15.37.220,3306,1741705551,sqlmap/1.5,SQL Injection,High,1
+34.201.32.74,443,1741674415,/etc/passwd,Data Exfiltration,High,1
+67.205.146.11,443,1741675482,nmap_scan,Reconnaissance,Medium,1
+89.187.163.71,80,1741693488,/shellshock_exploit,Exploitation,High,1
+185.199.108.153,8080,1741693038,normal_request,Normal,Low,0
+67.205.146.11,22,1741709682,/etc/passwd,Data Exfiltration,High,1
+10.0.0.3,3306,1741684578,admin' OR '1'='1,SQL Injection,High,1
+202.54.1.3,21,1741691185,admin' OR '1'='1,SQL Injection,High,1
+209.58.178.32,443,1741692646,admin' OR '1'='1,SQL Injection,High,1
+172.16.5.8,443,1741694104,admin' OR '1'='1,SQL Injection,High,1
+144.202.23.31,22,1741701109,/wp-login.php,Brute Force,Medium,1
+10.0.0.3,3389,1741710085,/etc/passwd,Data Exfiltration,High,1
+51.15.37.220,3389,1741707103,/etc/passwd,Data Exfiltration,High,1
+89.187.163.71,21,1741692010,admin' OR '1'='1,SQL Injection,High,1
+23.94.5.1,8080,1741704940,sqlmap/1.5,SQL Injection,High,1
+51.15.37.220,3389,1741700140,sqlmap/1.5,SQL Injection,High,1
+10.0.0.3,80,1741713180,normal_request,Normal,Low,0
+185.199.108.153,80,1741712005,/login,Brute Force,Medium,1
+185.199.108.153,8080,1741712774,/wp-login.php,Brute Force,Medium,1
+45.33.32.156,25,1741682705,nmap_scan,Reconnaissance,Medium,1
+198.51.100.7,3306,1741694516,normal_request,Normal,Low,0
+89.187.163.71,3389,1741702747,/login,Brute Force,Medium,1
+45.33.32.156,80,1741696703,/etc/passwd,Data Exfiltration,High,1
+202.54.1.3,3306,1741703390,/etc/passwd,Data Exfiltration,High,1
+202.54.1.3,443,1741674454,/shellshock_exploit,Exploitation,High,1
+185.199.108.153,25,1741674606,sqlmap/1.5,SQL Injection,High,1
+45.33.32.156,21,1741702388,/shellshock_exploit,Exploitation,High,1
+192.168.1.1,3389,1741698716,nmap_scan,Reconnaissance,Medium,1
+45.33.32.156,3389,1741701454,/login,Brute Force,Medium,1
+172.16.5.8,3389,1741680092,/wp-login.php,Brute Force,Medium,1
+34.201.32.74,80,1741676066,/wp-login.php,Brute Force,Medium,1
+185.199.108.153,22,1741680347,/wp-login.php,Brute Force,Medium,1
+45.33.32.156,3306,1741712378,/shellshock_exploit,Exploitation,High,1
+209.58.178.32,3306,1741701762,sqlmap/1.5,SQL Injection,High,1
+172.16.5.8,3389,1741685257,/etc/passwd,Data Exfiltration,High,1
+185.199.108.153,21,1741681109,/etc/passwd,Data Exfiltration,High,1
+209.58.178.32,22,1741673863,sqlmap/1.5,SQL Injection,High,1
+67.205.146.11,3306,1741687694,admin' OR '1'='1,SQL Injection,High,1
+209.58.178.32,22,1741690430,normal_request,Normal,Low,0
+202.54.1.3,443,1741675603,nmap_scan,Reconnaissance,Medium,1
+67.205.146.11,443,1741688085,/shellshock_exploit,Exploitation,High,1
+89.187.163.71,3306,1741687309,admin' OR '1'='1,SQL Injection,High,1
+34.201.32.74,3389,1741675756,admin' OR '1'='1,SQL Injection,High,1
+10.0.0.3,21,1741697716,/etc/passwd,Data Exfiltration,High,1
+67.205.146.11,80,1741698443,nmap_scan,Reconnaissance,Medium,1
+203.0.113.5,80,1741705027,/shellshock_exploit,Exploitation,High,1
+34.201.32.74,443,1741704994,sqlmap/1.5,SQL Injection,High,1
+185.199.108.153,25,1741680269,/login,Brute Force,Medium,1
+23.94.5.1,3389,1741697766,/etc/passwd,Data Exfiltration,High,1
+144.202.23.31,22,1741701127,sqlmap/1.5,SQL Injection,High,1
+203.0.113.5,25,1741681662,/shellshock_exploit,Exploitation,High,1
+203.0.113.5,443,1741677049,/login,Brute Force,Medium,1
+51.15.37.220,8080,1741702109,sqlmap/1.5,SQL Injection,High,1
+203.0.113.5,8080,1741684152,admin' OR '1'='1,SQL Injection,High,1
+34.201.32.74,443,1741687630,/login,Brute Force,Medium,1
+198.51.100.7,3306,1741679416,/wp-login.php,Brute Force,Medium,1
+198.51.100.7,22,1741675078,/wp-login.php,Brute Force,Medium,1
+144.202.23.31,25,1741697110,/etc/passwd,Data Exfiltration,High,1
+192.168.1.1,3306,1741680254,admin' OR '1'='1,SQL Injection,High,1
+192.168.1.1,22,1741691874,nmap_scan,Reconnaissance,Medium,1
+192.168.1.1,3306,1741685215,/etc/passwd,Data Exfiltration,High,1
+67.205.146.11,22,1741695670,/etc/passwd,Data Exfiltration,High,1
+45.33.32.156,22,1741696082,nmap_scan,Reconnaissance,Medium,1
+67.205.146.11,22,1741677517,nmap_scan,Reconnaissance,Medium,1
+89.187.163.71,3389,1741708759,/wp-login.php,Brute Force,Medium,1
+185.199.108.153,3306,1741684467,/shellshock_exploit,Exploitation,High,1
+192.168.1.1,443,1741682728,/shellshock_exploit,Exploitation,High,1
+198.51.100.7,3389,1741712934,normal_request,Normal,Low,0
+23.94.5.1,80,1741691681,/etc/passwd,Data Exfiltration,High,1
+45.33.32.156,443,1741701770,nmap_scan,Reconnaissance,Medium,1
+10.0.0.3,80,1741688788,/etc/passwd,Data Exfiltration,High,1
+144.202.23.31,22,1741674060,nmap_scan,Reconnaissance,Medium,1
+203.0.113.5,80,1741702714,/shellshock_exploit,Exploitation,High,1
+144.202.23.31,443,1741687322,/shellshock_exploit,Exploitation,High,1
+45.33.32.156,80,1741676210,/wp-login.php,Brute Force,Medium,1
+209.58.178.32,25,1741700178,nmap_scan,Reconnaissance,Medium,1
+10.0.0.3,21,1741692736,/wp-login.php,Brute Force,Medium,1
+198.51.100.7,8080,1741705688,/etc/passwd,Data Exfiltration,High,1
+34.201.32.74,3306,1741677748,nmap_scan,Reconnaissance,Medium,1
+67.205.146.11,22,1741700512,/wp-login.php,Brute Force,Medium,1
+202.54.1.3,80,1741703425,admin' OR '1'='1,SQL Injection,High,1
+185.199.108.153,25,1741705556,sqlmap/1.5,SQL Injection,High,1
+45.33.32.156,25,1741703086,nmap_scan,Reconnaissance,Medium,1
+144.202.23.31,3306,1741695651,nmap_scan,Reconnaissance,Medium,1
+172.16.5.8,3306,1741712821,nmap_scan,Reconnaissance,Medium,1
+89.187.163.71,22,1741697564,/login,Brute Force,Medium,1
+34.201.32.74,80,1741686907,normal_request,Normal,Low,0
+67.205.146.11,443,1741706979,nmap_scan,Reconnaissance,Medium,1
+185.199.108.153,80,1741693573,admin' OR '1'='1,SQL Injection,High,1
+34.201.32.74,8080,1741688363,nmap_scan,Reconnaissance,Medium,1
+45.33.32.156,25,1741698591,/wp-login.php,Brute Force,Medium,1
+144.202.23.31,80,1741692966,normal_request,Normal,Low,0
+89.187.163.71,22,1741700909,normal_request,Normal,Low,0
+10.0.0.3,3389,1741693043,sqlmap/1.5,SQL Injection,High,1
+67.205.146.11,3389,1741702554,/shellshock_exploit,Exploitation,High,1
+202.54.1.3,25,1741680320,/etc/passwd,Data Exfiltration,High,1
+10.0.0.3,25,1741694230,normal_request,Normal,Low,0
+51.15.37.220,3306,1741683232,admin' OR '1'='1,SQL Injection,High,1
+172.16.5.8,3306,1741675245,admin' OR '1'='1,SQL Injection,High,1
+202.54.1.3,443,1741701276,normal_request,Normal,Low,0
+192.168.1.1,443,1741688553,nmap_scan,Reconnaissance,Medium,1
+172.16.5.8,80,1741695508,nmap_scan,Reconnaissance,Medium,1
+185.199.108.153,3306,1741679893,/login,Brute Force,Medium,1
+203.0.113.5,3306,1741673859,/shellshock_exploit,Exploitation,High,1
+67.205.146.11,443,1741702651,normal_request,Normal,Low,0
+202.54.1.3,8080,1741687414,/wp-login.php,Brute Force,Medium,1
+23.94.5.1,21,1741707888,/shellshock_exploit,Exploitation,High,1
+192.168.1.1,21,1741702169,/wp-login.php,Brute Force,Medium,1
+209.58.178.32,80,1741687501,/shellshock_exploit,Exploitation,High,1
+51.15.37.220,443,1741686140,/login,Brute Force,Medium,1
+34.201.32.74,443,1741708966,/wp-login.php,Brute Force,Medium,1
+192.168.1.1,8080,1741710629,admin' OR '1'='1,SQL Injection,High,1
+209.58.178.32,21,1741709072,normal_request,Normal,Low,0
+172.16.5.8,21,1741712508,/wp-login.php,Brute Force,Medium,1
+202.54.1.3,22,1741703498,nmap_scan,Reconnaissance,Medium,1
+51.15.37.220,3306,1741685184,/shellshock_exploit,Exploitation,High,1
+185.199.108.153,80,1741698699,/shellshock_exploit,Exploitation,High,1
+185.199.108.153,22,1741712608,nmap_scan,Reconnaissance,Medium,1
+172.16.5.8,25,1741682830,normal_request,Normal,Low,0
+51.15.37.220,8080,1741689118,/shellshock_exploit,Exploitation,High,1
+172.16.5.8,3389,1741706655,sqlmap/1.5,SQL Injection,High,1
+89.187.163.71,22,1741692244,/shellshock_exploit,Exploitation,High,1
+34.201.32.74,443,1741697621,/etc/passwd,Data Exfiltration,High,1
+198.51.100.7,21,1741703141,/wp-login.php,Brute Force,Medium,1
+144.202.23.31,3389,1741681049,nmap_scan,Reconnaissance,Medium,1
+45.33.32.156,22,1741678929,/shellshock_exploit,Exploitation,High,1
+67.205.146.11,8080,1741696641,/login,Brute Force,Medium,1
+203.0.113.5,8080,1741707533,/shellshock_exploit,Exploitation,High,1
+192.168.1.1,3306,1741696570,normal_request,Normal,Low,0
+203.0.113.5,443,1741713116,/wp-login.php,Brute Force,Medium,1
+203.0.113.5,443,1741682760,/wp-login.php,Brute Force,Medium,1
+23.94.5.1,8080,1741699349,/shellshock_exploit,Exploitation,High,1
+67.205.146.11,25,1741694636,admin' OR '1'='1,SQL Injection,High,1
+144.202.23.31,3389,1741683180,/etc/passwd,Data Exfiltration,High,1
+89.187.163.71,22,1741698747,/etc/passwd,Data Exfiltration,High,1
+144.202.23.31,25,1741705646,sqlmap/1.5,SQL Injection,High,1
+45.33.32.156,22,1741689418,nmap_scan,Reconnaissance,Medium,1
+10.0.0.3,3306,1741697563,admin' OR '1'='1,SQL Injection,High,1
+23.94.5.1,22,1741679338,/wp-login.php,Brute Force,Medium,1
+185.199.108.153,3306,1741706912,/login,Brute Force,Medium,1
+144.202.23.31,25,1741701959,/etc/passwd,Data Exfiltration,High,1
+198.51.100.7,80,1741681707,admin' OR '1'='1,SQL Injection,High,1
+45.33.32.156,80,1741697192,nmap_scan,Reconnaissance,Medium,1
+23.94.5.1,443,1741694839,sqlmap/1.5,SQL Injection,High,1
+34.201.32.74,3389,1741694101,normal_request,Normal,Low,0
+202.54.1.3,3306,1741679074,normal_request,Normal,Low,0
+51.15.37.220,25,1741705763,/etc/passwd,Data Exfiltration,High,1
+67.205.146.11,22,1741699997,/etc/passwd,Data Exfiltration,High,1
+198.51.100.7,80,1741679884,/login,Brute Force,Medium,1
+34.201.32.74,3306,1741686758,nmap_scan,Reconnaissance,Medium,1
+23.94.5.1,21,1741695440,sqlmap/1.5,SQL Injection,High,1
+51.15.37.220,3306,1741705694,normal_request,Normal,Low,0
+45.33.32.156,22,1741695102,nmap_scan,Reconnaissance,Medium,1
+23.94.5.1,22,1741697221,/shellshock_exploit,Exploitation,High,1
+198.51.100.7,443,1741708811,/shellshock_exploit,Exploitation,High,1
+202.54.1.3,3389,1741679052,/shellshock_exploit,Exploitation,High,1
+51.15.37.220,22,1741697578,admin' OR '1'='1,SQL Injection,High,1
+172.16.5.8,3306,1741702195,/login,Brute Force,Medium,1
+10.0.0.3,22,1741704018,/login,Brute Force,Medium,1
+34.201.32.74,25,1741695229,admin' OR '1'='1,SQL Injection,High,1
+185.199.108.153,22,1741690969,nmap_scan,Reconnaissance,Medium,1
+185.199.108.153,3389,1741682900,/wp-login.php,Brute Force,Medium,1
+198.51.100.7,21,1741705123,nmap_scan,Reconnaissance,Medium,1
+203.0.113.5,3306,1741704753,/login,Brute Force,Medium,1
+192.168.1.1,8080,1741690976,normal_request,Normal,Low,0
+172.16.5.8,80,1741709298,/etc/passwd,Data Exfiltration,High,1
+51.15.37.220,8080,1741699794,/shellshock_exploit,Exploitation,High,1
+45.33.32.156,21,1741709717,normal_request,Normal,Low,0
+51.15.37.220,8080,1741708604,admin' OR '1'='1,SQL Injection,High,1
+67.205.146.11,80,1741694017,/etc/passwd,Data Exfiltration,High,1
+198.51.100.7,22,1741687819,/etc/passwd,Data Exfiltration,High,1
+185.199.108.153,22,1741695827,/etc/passwd,Data Exfiltration,High,1
+185.199.108.153,3306,1741702402,/shellshock_exploit,Exploitation,High,1
+45.33.32.156,80,1741709221,/etc/passwd,Data Exfiltration,High,1
+45.33.32.156,3306,1741708019,/etc/passwd,Data Exfiltration,High,1
+144.202.23.31,80,1741693847,admin' OR '1'='1,SQL Injection,High,1
+10.0.0.3,3306,1741710246,/etc/passwd,Data Exfiltration,High,1
+209.58.178.32,21,1741692422,/login,Brute Force,Medium,1
+23.94.5.1,21,1741687413,nmap_scan,Reconnaissance,Medium,1
+34.201.32.74,22,1741712926,nmap_scan,Reconnaissance,Medium,1
+172.16.5.8,22,1741673933,normal_request,Normal,Low,0
+10.0.0.3,22,1741700002,/login,Brute Force,Medium,1
+172.16.5.8,25,1741677470,/wp-login.php,Brute Force,Medium,1
+144.202.23.31,8080,1741678268,normal_request,Normal,Low,0
+209.58.178.32,25,1741703076,admin' OR '1'='1,SQL Injection,High,1
+192.168.1.1,443,1741678698,/shellshock_exploit,Exploitation,High,1
+67.205.146.11,21,1741699969,/wp-login.php,Brute Force,Medium,1
+10.0.0.3,443,1741680843,/login,Brute Force,Medium,1
+192.168.1.1,443,1741699853,/shellshock_exploit,Exploitation,High,1
+185.199.108.153,80,1741692989,/login,Brute Force,Medium,1
+51.15.37.220,25,1741683463,/login,Brute Force,Medium,1
+172.16.5.8,22,1741689136,sqlmap/1.5,SQL Injection,High,1
+45.33.32.156,25,1741707344,sqlmap/1.5,SQL Injection,High,1
+203.0.113.5,22,1741676412,/shellshock_exploit,Exploitation,High,1
+203.0.113.5,21,1741693014,/login,Brute Force,Medium,1
+202.54.1.3,25,1741690807,normal_request,Normal,Low,0
+185.199.108.153,3306,1741708579,/wp-login.php,Brute Force,Medium,1
+202.54.1.3,80,1741682834,/etc/passwd,Data Exfiltration,High,1
+209.58.178.32,3306,1741703292,/etc/passwd,Data Exfiltration,High,1
+209.58.178.32,22,1741703581,admin' OR '1'='1,SQL Injection,High,1
+209.58.178.32,443,1741680870,nmap_scan,Reconnaissance,Medium,1
+202.54.1.3,443,1741688847,/shellshock_exploit,Exploitation,High,1
+172.16.5.8,80,1741706449,sqlmap/1.5,SQL Injection,High,1
+198.51.100.7,443,1741696175,/etc/passwd,Data Exfiltration,High,1
+198.51.100.7,3306,1741683769,/shellshock_exploit,Exploitation,High,1
+89.187.163.71,3306,1741708114,nmap_scan,Reconnaissance,Medium,1
+202.54.1.3,25,1741681960,/login,Brute Force,Medium,1
+192.168.1.1,80,1741703220,nmap_scan,Reconnaissance,Medium,1
+202.54.1.3,443,1741708597,/wp-login.php,Brute Force,Medium,1
+203.0.113.5,3306,1741703526,normal_request,Normal,Low,0
+67.205.146.11,25,1741681735,sqlmap/1.5,SQL Injection,High,1
+144.202.23.31,21,1741689230,sqlmap/1.5,SQL Injection,High,1
+198.51.100.7,21,1741677290,/login,Brute Force,Medium,1
+51.15.37.220,80,1741712109,/login,Brute Force,Medium,1
+34.201.32.74,443,1741677430,admin' OR '1'='1,SQL Injection,High,1
+23.94.5.1,25,1741689444,sqlmap/1.5,SQL Injection,High,1
+203.0.113.5,22,1741710377,nmap_scan,Reconnaissance,Medium,1
+203.0.113.5,443,1741677550,/shellshock_exploit,Exploitation,High,1
+67.205.146.11,22,1741688273,/login,Brute Force,Medium,1
+172.16.5.8,3389,1741709539,admin' OR '1'='1,SQL Injection,High,1
+89.187.163.71,3389,1741692614,admin' OR '1'='1,SQL Injection,High,1
+185.199.108.153,8080,1741702714,/shellshock_exploit,Exploitation,High,1
+202.54.1.3,22,1741674563,/wp-login.php,Brute Force,Medium,1
+23.94.5.1,21,1741674622,/wp-login.php,Brute Force,Medium,1
+23.94.5.1,25,1741683823,sqlmap/1.5,SQL Injection,High,1
+45.33.32.156,3306,1741681424,/wp-login.php,Brute Force,Medium,1
+203.0.113.5,8080,1741697445,nmap_scan,Reconnaissance,Medium,1
+202.54.1.3,22,1741691875,admin' OR '1'='1,SQL Injection,High,1
+209.58.178.32,21,1741684789,/shellshock_exploit,Exploitation,High,1
+67.205.146.11,22,1741692855,/login,Brute Force,Medium,1
+67.205.146.11,3389,1741703670,admin' OR '1'='1,SQL Injection,High,1
+67.205.146.11,8080,1741710942,sqlmap/1.5,SQL Injection,High,1
+209.58.178.32,3306,1741695090,/login,Brute Force,Medium,1
+172.16.5.8,3389,1741694080,/wp-login.php,Brute Force,Medium,1
+202.54.1.3,3389,1741699139,sqlmap/1.5,SQL Injection,High,1
+34.201.32.74,443,1741673893,/etc/passwd,Data Exfiltration,High,1
+203.0.113.5,8080,1741676344,sqlmap/1.5,SQL Injection,High,1
+203.0.113.5,3306,1741695109,sqlmap/1.5,SQL Injection,High,1
+172.16.5.8,22,1741698884,normal_request,Normal,Low,0
+45.33.32.156,3306,1741682228,/shellshock_exploit,Exploitation,High,1
+209.58.178.32,80,1741709026,admin' OR '1'='1,SQL Injection,High,1
+144.202.23.31,3389,1741708010,/wp-login.php,Brute Force,Medium,1
+67.205.146.11,3389,1741712513,admin' OR '1'='1,SQL Injection,High,1
+67.205.146.11,3389,1741678019,/wp-login.php,Brute Force,Medium,1
+144.202.23.31,25,1741711430,nmap_scan,Reconnaissance,Medium,1
+203.0.113.5,80,1741700444,nmap_scan,Reconnaissance,Medium,1
+10.0.0.3,21,1741678980,normal_request,Normal,Low,0
+185.199.108.153,443,1741698279,/shellshock_exploit,Exploitation,High,1
+192.168.1.1,22,1741698362,/etc/passwd,Data Exfiltration,High,1
+23.94.5.1,3306,1741696139,admin' OR '1'='1,SQL Injection,High,1
+45.33.32.156,8080,1741676840,nmap_scan,Reconnaissance,Medium,1
+192.168.1.1,8080,1741675499,sqlmap/1.5,SQL Injection,High,1
+192.168.1.1,3389,1741703334,/login,Brute Force,Medium,1
+45.33.32.156,3389,1741705562,/login,Brute Force,Medium,1
+198.51.100.7,80,1741688087,nmap_scan,Reconnaissance,Medium,1
+51.15.37.220,25,1741698036,/wp-login.php,Brute Force,Medium,1
+34.201.32.74,443,1741690626,/login,Brute Force,Medium,1
+10.0.0.3,3389,1741674664,/etc/passwd,Data Exfiltration,High,1
+45.33.32.156,8080,1741710209,admin' OR '1'='1,SQL Injection,High,1
+144.202.23.31,443,1741678756,/shellshock_exploit,Exploitation,High,1
+144.202.23.31,8080,1741701776,normal_request,Normal,Low,0
+23.94.5.1,3306,1741709873,/wp-login.php,Brute Force,Medium,1
+23.94.5.1,80,1741686128,admin' OR '1'='1,SQL Injection,High,1
+23.94.5.1,22,1741681760,nmap_scan,Reconnaissance,Medium,1
+198.51.100.7,80,1741700505,nmap_scan,Reconnaissance,Medium,1
+23.94.5.1,8080,1741704823,normal_request,Normal,Low,0
+203.0.113.5,8080,1741698632,/login,Brute Force,Medium,1
+185.199.108.153,25,1741681158,sqlmap/1.5,SQL Injection,High,1
+23.94.5.1,25,1741698831,admin' OR '1'='1,SQL Injection,High,1
+23.94.5.1,8080,1741712037,/shellshock_exploit,Exploitation,High,1
+192.168.1.1,25,1741709255,admin' OR '1'='1,SQL Injection,High,1
+67.205.146.11,8080,1741688986,/wp-login.php,Brute Force,Medium,1
+172.16.5.8,21,1741695441,admin' OR '1'='1,SQL Injection,High,1
+23.94.5.1,80,1741697755,/login,Brute Force,Medium,1
+192.168.1.1,3389,1741707819,normal_request,Normal,Low,0
+23.94.5.1,22,1741698477,nmap_scan,Reconnaissance,Medium,1
+202.54.1.3,80,1741699217,sqlmap/1.5,SQL Injection,High,1
+67.205.146.11,3306,1741675875,admin' OR '1'='1,SQL Injection,High,1
+203.0.113.5,80,1741703051,sqlmap/1.5,SQL Injection,High,1
+67.205.146.11,8080,1741707110,admin' OR '1'='1,SQL Injection,High,1
+67.205.146.11,8080,1741683363,/shellshock_exploit,Exploitation,High,1
+198.51.100.7,21,1741698666,sqlmap/1.5,SQL Injection,High,1
+67.205.146.11,3306,1741675290,normal_request,Normal,Low,0
+89.187.163.71,22,1741707317,admin' OR '1'='1,SQL Injection,High,1
+67.205.146.11,8080,1741704574,/wp-login.php,Brute Force,Medium,1
+10.0.0.3,25,1741681046,nmap_scan,Reconnaissance,Medium,1
+10.0.0.3,22,1741678590,/etc/passwd,Data Exfiltration,High,1
+51.15.37.220,22,1741702072,admin' OR '1'='1,SQL Injection,High,1
+34.201.32.74,3306,1741706770,/login,Brute Force,Medium,1
+203.0.113.5,22,1741691944,admin' OR '1'='1,SQL Injection,High,1
+185.199.108.153,443,1741679794,/etc/passwd,Data Exfiltration,High,1
+67.205.146.11,80,1741709706,/shellshock_exploit,Exploitation,High,1
+34.201.32.74,25,1741694620,/shellshock_exploit,Exploitation,High,1
+67.205.146.11,3306,1741707252,/wp-login.php,Brute Force,Medium,1
+45.33.32.156,25,1741687211,admin' OR '1'='1,SQL Injection,High,1
+192.168.1.1,25,1741700747,normal_request,Normal,Low,0
+172.16.5.8,3306,1741691076,nmap_scan,Reconnaissance,Medium,1
+144.202.23.31,80,1741712324,nmap_scan,Reconnaissance,Medium,1
+202.54.1.3,8080,1741675485,sqlmap/1.5,SQL Injection,High,1
+185.199.108.153,3306,1741710490,nmap_scan,Reconnaissance,Medium,1
+10.0.0.3,8080,1741688890,/etc/passwd,Data Exfiltration,High,1
+203.0.113.5,8080,1741710516,/wp-login.php,Brute Force,Medium,1
+45.33.32.156,25,1741683821,/login,Brute Force,Medium,1
+198.51.100.7,8080,1741708712,nmap_scan,Reconnaissance,Medium,1
+51.15.37.220,8080,1741676007,sqlmap/1.5,SQL Injection,High,1
+67.205.146.11,3306,1741673859,/shellshock_exploit,Exploitation,High,1
+209.58.178.32,3389,1741682901,/etc/passwd,Data Exfiltration,High,1
+185.199.108.153,21,1741702302,sqlmap/1.5,SQL Injection,High,1
+67.205.146.11,3389,1741674993,nmap_scan,Reconnaissance,Medium,1
+67.205.146.11,443,1741695602,nmap_scan,Reconnaissance,Medium,1
+144.202.23.31,8080,1741682074,/login,Brute Force,Medium,1
+45.33.32.156,3389,1741702142,/login,Brute Force,Medium,1
+172.16.5.8,80,1741682057,admin' OR '1'='1,SQL Injection,High,1
+192.168.1.1,3389,1741705464,/wp-login.php,Brute Force,Medium,1
+23.94.5.1,25,1741707324,normal_request,Normal,Low,0
+198.51.100.7,3389,1741699138,normal_request,Normal,Low,0
+172.16.5.8,3389,1741692132,/login,Brute Force,Medium,1
+67.205.146.11,22,1741688771,sqlmap/1.5,SQL Injection,High,1
+185.199.108.153,3389,1741675274,admin' OR '1'='1,SQL Injection,High,1
+209.58.178.32,3389,1741704077,normal_request,Normal,Low,0
+198.51.100.7,3306,1741690417,nmap_scan,Reconnaissance,Medium,1
+203.0.113.5,3306,1741707177,/wp-login.php,Brute Force,Medium,1
+45.33.32.156,3389,1741712580,normal_request,Normal,Low,0
+185.199.108.153,21,1741698746,/etc/passwd,Data Exfiltration,High,1
+203.0.113.5,25,1741711285,/shellshock_exploit,Exploitation,High,1
+198.51.100.7,25,1741693883,admin' OR '1'='1,SQL Injection,High,1
+203.0.113.5,8080,1741709761,nmap_scan,Reconnaissance,Medium,1
+185.199.108.153,3306,1741698930,/login,Brute Force,Medium,1
+67.205.146.11,8080,1741679764,nmap_scan,Reconnaissance,Medium,1
+198.51.100.7,21,1741679884,nmap_scan,Reconnaissance,Medium,1
+23.94.5.1,21,1741704995,nmap_scan,Reconnaissance,Medium,1
+23.94.5.1,80,1741677729,/shellshock_exploit,Exploitation,High,1
+23.94.5.1,21,1741701628,/shellshock_exploit,Exploitation,High,1
+34.201.32.74,22,1741697180,admin' OR '1'='1,SQL Injection,High,1
+202.54.1.3,3306,1741684850,/login,Brute Force,Medium,1
+209.58.178.32,8080,1741674737,/login,Brute Force,Medium,1
+89.187.163.71,25,1741687213,admin' OR '1'='1,SQL Injection,High,1
+209.58.178.32,3306,1741674471,admin' OR '1'='1,SQL Injection,High,1
+34.201.32.74,80,1741710797,nmap_scan,Reconnaissance,Medium,1
+144.202.23.31,8080,1741701688,sqlmap/1.5,SQL Injection,High,1
+203.0.113.5,443,1741690444,/shellshock_exploit,Exploitation,High,1
+10.0.0.3,80,1741707948,/login,Brute Force,Medium,1
+202.54.1.3,80,1741708065,nmap_scan,Reconnaissance,Medium,1
+89.187.163.71,3306,1741713229,nmap_scan,Reconnaissance,Medium,1
+67.205.146.11,21,1741682120,/shellshock_exploit,Exploitation,High,1
+51.15.37.220,3389,1741694025,admin' OR '1'='1,SQL Injection,High,1
+172.16.5.8,80,1741689642,/shellshock_exploit,Exploitation,High,1
+45.33.32.156,80,1741692813,/login,Brute Force,Medium,1
+209.58.178.32,22,1741678727,nmap_scan,Reconnaissance,Medium,1
+67.205.146.11,3306,1741677877,/shellshock_exploit,Exploitation,High,1
+172.16.5.8,3389,1741698559,nmap_scan,Reconnaissance,Medium,1
+192.168.1.1,3389,1741706438,nmap_scan,Reconnaissance,Medium,1
+172.16.5.8,3389,1741684654,sqlmap/1.5,SQL Injection,High,1
+144.202.23.31,3389,1741701911,/etc/passwd,Data Exfiltration,High,1
+67.205.146.11,21,1741676807,admin' OR '1'='1,SQL Injection,High,1
+10.0.0.3,22,1741698998,/etc/passwd,Data Exfiltration,High,1
+67.205.146.11,22,1741693378,/login,Brute Force,Medium,1
+202.54.1.3,3389,1741708990,normal_request,Normal,Low,0
+23.94.5.1,80,1741702781,nmap_scan,Reconnaissance,Medium,1
+67.205.146.11,25,1741693857,admin' OR '1'='1,SQL Injection,High,1
+203.0.113.5,80,1741678171,/etc/passwd,Data Exfiltration,High,1
+203.0.113.5,80,1741702628,nmap_scan,Reconnaissance,Medium,1
+192.168.1.1,80,1741678388,/wp-login.php,Brute Force,Medium,1
+45.33.32.156,3306,1741674569,/login,Brute Force,Medium,1
+185.199.108.153,22,1741692815,normal_request,Normal,Low,0
+67.205.146.11,80,1741676454,/shellshock_exploit,Exploitation,High,1
+34.201.32.74,3306,1741690293,normal_request,Normal,Low,0
+144.202.23.31,3389,1741710733,/wp-login.php,Brute Force,Medium,1
+198.51.100.7,80,1741688173,/login,Brute Force,Medium,1
+144.202.23.31,8080,1741707825,/login,Brute Force,Medium,1
+192.168.1.1,25,1741687012,/shellshock_exploit,Exploitation,High,1
+23.94.5.1,443,1741696652,normal_request,Normal,Low,0
+34.201.32.74,22,1741689811,nmap_scan,Reconnaissance,Medium,1
+198.51.100.7,21,1741693325,nmap_scan,Reconnaissance,Medium,1
+23.94.5.1,80,1741709826,nmap_scan,Reconnaissance,Medium,1
+89.187.163.71,443,1741702015,sqlmap/1.5,SQL Injection,High,1
+34.201.32.74,3389,1741703446,admin' OR '1'='1,SQL Injection,High,1
+89.187.163.71,22,1741708752,admin' OR '1'='1,SQL Injection,High,1
+45.33.32.156,25,1741675374,/login,Brute Force,Medium,1
+89.187.163.71,3389,1741711232,/etc/passwd,Data Exfiltration,High,1
+23.94.5.1,3389,1741702382,/shellshock_exploit,Exploitation,High,1
+203.0.113.5,80,1741695614,/etc/passwd,Data Exfiltration,High,1
+192.168.1.1,3389,1741677595,nmap_scan,Reconnaissance,Medium,1
+192.168.1.1,21,1741705275,/wp-login.php,Brute Force,Medium,1
+34.201.32.74,3306,1741699094,sqlmap/1.5,SQL Injection,High,1
+67.205.146.11,3306,1741700211,normal_request,Normal,Low,0
+192.168.1.1,8080,1741686277,/shellshock_exploit,Exploitation,High,1
+203.0.113.5,3389,1741693823,sqlmap/1.5,SQL Injection,High,1
+203.0.113.5,80,1741692745,/etc/passwd,Data Exfiltration,High,1
+23.94.5.1,3306,1741678843,normal_request,Normal,Low,0
+67.205.146.11,25,1741678174,/wp-login.php,Brute Force,Medium,1
+45.33.32.156,25,1741700499,admin' OR '1'='1,SQL Injection,High,1
+45.33.32.156,8080,1741696040,/login,Brute Force,Medium,1
+45.33.32.156,25,1741705877,admin' OR '1'='1,SQL Injection,High,1
+51.15.37.220,21,1741705724,/wp-login.php,Brute Force,Medium,1
+23.94.5.1,8080,1741708344,admin' OR '1'='1,SQL Injection,High,1
+202.54.1.3,443,1741702462,/shellshock_exploit,Exploitation,High,1
+192.168.1.1,21,1741680257,/etc/passwd,Data Exfiltration,High,1
+172.16.5.8,80,1741701406,/shellshock_exploit,Exploitation,High,1
+67.205.146.11,3389,1741702117,/wp-login.php,Brute Force,Medium,1
+10.0.0.3,443,1741702286,sqlmap/1.5,SQL Injection,High,1
+203.0.113.5,443,1741697432,sqlmap/1.5,SQL Injection,High,1
+89.187.163.71,3306,1741702840,sqlmap/1.5,SQL Injection,High,1
+51.15.37.220,21,1741684900,/wp-login.php,Brute Force,Medium,1
+185.199.108.153,8080,1741710571,/shellshock_exploit,Exploitation,High,1
+45.33.32.156,80,1741701496,/etc/passwd,Data Exfiltration,High,1
+209.58.178.32,25,1741705577,sqlmap/1.5,SQL Injection,High,1
+23.94.5.1,25,1741693736,/etc/passwd,Data Exfiltration,High,1
+45.33.32.156,8080,1741690840,/shellshock_exploit,Exploitation,High,1
+45.33.32.156,3389,1741698940,admin' OR '1'='1,SQL Injection,High,1
+45.33.32.156,21,1741685112,/login,Brute Force,Medium,1
+144.202.23.31,80,1741692300,normal_request,Normal,Low,0
+51.15.37.220,8080,1741710548,admin' OR '1'='1,SQL Injection,High,1
+23.94.5.1,443,1741675282,/etc/passwd,Data Exfiltration,High,1
+202.54.1.3,22,1741701090,/etc/passwd,Data Exfiltration,High,1
+185.199.108.153,3389,1741696049,/login,Brute Force,Medium,1
+23.94.5.1,80,1741697024,/etc/passwd,Data Exfiltration,High,1
+89.187.163.71,25,1741701517,nmap_scan,Reconnaissance,Medium,1
+45.33.32.156,80,1741710050,nmap_scan,Reconnaissance,Medium,1
+89.187.163.71,80,1741683034,/wp-login.php,Brute Force,Medium,1
+34.201.32.74,21,1741704498,normal_request,Normal,Low,0
+192.168.1.1,21,1741685998,/shellshock_exploit,Exploitation,High,1
+10.0.0.3,8080,1741692848,normal_request,Normal,Low,0
+172.16.5.8,8080,1741686860,/shellshock_exploit,Exploitation,High,1
+185.199.108.153,22,1741701460,/wp-login.php,Brute Force,Medium,1
+23.94.5.1,25,1741688816,/login,Brute Force,Medium,1
+67.205.146.11,22,1741697241,sqlmap/1.5,SQL Injection,High,1
+203.0.113.5,3389,1741688415,sqlmap/1.5,SQL Injection,High,1
+203.0.113.5,80,1741691595,/etc/passwd,Data Exfiltration,High,1
+10.0.0.3,22,1741689282,sqlmap/1.5,SQL Injection,High,1
+89.187.163.71,80,1741677005,/login,Brute Force,Medium,1
+198.51.100.7,8080,1741678965,sqlmap/1.5,SQL Injection,High,1
+23.94.5.1,22,1741694427,normal_request,Normal,Low,0
+23.94.5.1,22,1741709024,sqlmap/1.5,SQL Injection,High,1
+23.94.5.1,3389,1741701698,sqlmap/1.5,SQL Injection,High,1
+198.51.100.7,8080,1741680688,/wp-login.php,Brute Force,Medium,1
+192.168.1.1,80,1741699225,admin' OR '1'='1,SQL Injection,High,1
+23.94.5.1,22,1741711531,nmap_scan,Reconnaissance,Medium,1
+185.199.108.153,443,1741711802,normal_request,Normal,Low,0
+67.205.146.11,21,1741709221,/login,Brute Force,Medium,1
+185.199.108.153,443,1741690807,sqlmap/1.5,SQL Injection,High,1
+51.15.37.220,22,1741702034,nmap_scan,Reconnaissance,Medium,1
+198.51.100.7,25,1741697135,admin' OR '1'='1,SQL Injection,High,1
+10.0.0.3,443,1741701871,sqlmap/1.5,SQL Injection,High,1
+198.51.100.7,22,1741680949,sqlmap/1.5,SQL Injection,High,1
+144.202.23.31,3389,1741677473,normal_request,Normal,Low,0
+203.0.113.5,22,1741683692,nmap_scan,Reconnaissance,Medium,1
+67.205.146.11,3306,1741687756,/shellshock_exploit,Exploitation,High,1
+51.15.37.220,21,1741712512,/login,Brute Force,Medium,1
+192.168.1.1,25,1741677767,sqlmap/1.5,SQL Injection,High,1
+198.51.100.7,8080,1741684137,sqlmap/1.5,SQL Injection,High,1
+51.15.37.220,443,1741698181,normal_request,Normal,Low,0
+202.54.1.3,80,1741703480,/etc/passwd,Data Exfiltration,High,1
+202.54.1.3,21,1741692629,admin' OR '1'='1,SQL Injection,High,1
+45.33.32.156,21,1741704126,/shellshock_exploit,Exploitation,High,1
+67.205.146.11,80,1741698908,/login,Brute Force,Medium,1
+51.15.37.220,8080,1741688821,/wp-login.php,Brute Force,Medium,1
+202.54.1.3,22,1741683915,admin' OR '1'='1,SQL Injection,High,1
+51.15.37.220,3389,1741685398,/etc/passwd,Data Exfiltration,High,1
+10.0.0.3,80,1741681821,/login,Brute Force,Medium,1
+202.54.1.3,21,1741696222,/etc/passwd,Data Exfiltration,High,1
+10.0.0.3,3306,1741675771,/login,Brute Force,Medium,1
+10.0.0.3,21,1741689409,/etc/passwd,Data Exfiltration,High,1
+172.16.5.8,22,1741688460,/shellshock_exploit,Exploitation,High,1
+202.54.1.3,3389,1741712828,/etc/passwd,Data Exfiltration,High,1
+172.16.5.8,25,1741679446,/etc/passwd,Data Exfiltration,High,1
+192.168.1.1,443,1741708398,nmap_scan,Reconnaissance,Medium,1
+51.15.37.220,25,1741708904,/wp-login.php,Brute Force,Medium,1
+198.51.100.7,443,1741711574,/login,Brute Force,Medium,1
+198.51.100.7,25,1741680591,/wp-login.php,Brute Force,Medium,1
+192.168.1.1,8080,1741674525,/shellshock_exploit,Exploitation,High,1
+198.51.100.7,3306,1741704900,/shellshock_exploit,Exploitation,High,1
+172.16.5.8,22,1741712808,/wp-login.php,Brute Force,Medium,1
+51.15.37.220,3389,1741704016,admin' OR '1'='1,SQL Injection,High,1
+198.51.100.7,443,1741694427,/shellshock_exploit,Exploitation,High,1
+202.54.1.3,3389,1741696850,/login,Brute Force,Medium,1
+203.0.113.5,443,1741686060,nmap_scan,Reconnaissance,Medium,1
+89.187.163.71,443,1741678303,normal_request,Normal,Low,0
+23.94.5.1,3389,1741678320,/wp-login.php,Brute Force,Medium,1
+203.0.113.5,22,1741691094,/shellshock_exploit,Exploitation,High,1
+144.202.23.31,25,1741685960,sqlmap/1.5,SQL Injection,High,1
+198.51.100.7,25,1741687436,/login,Brute Force,Medium,1
+10.0.0.3,3389,1741705219,/etc/passwd,Data Exfiltration,High,1
+203.0.113.5,3306,1741697128,/wp-login.php,Brute Force,Medium,1
+45.33.32.156,443,1741677360,/etc/passwd,Data Exfiltration,High,1
+172.16.5.8,21,1741677404,/login,Brute Force,Medium,1
+192.168.1.1,443,1741704164,/shellshock_exploit,Exploitation,High,1
+45.33.32.156,8080,1741704391,admin' OR '1'='1,SQL Injection,High,1
+172.16.5.8,80,1741706405,sqlmap/1.5,SQL Injection,High,1
+51.15.37.220,3389,1741709670,/shellshock_exploit,Exploitation,High,1
+203.0.113.5,21,1741699084,/shellshock_exploit,Exploitation,High,1
+10.0.0.3,3306,1741707051,/etc/passwd,Data Exfiltration,High,1
+34.201.32.74,22,1741699180,sqlmap/1.5,SQL Injection,High,1
+51.15.37.220,8080,1741690427,/wp-login.php,Brute Force,Medium,1
+198.51.100.7,80,1741691945,admin' OR '1'='1,SQL Injection,High,1
+192.168.1.1,22,1741687752,/wp-login.php,Brute Force,Medium,1
+51.15.37.220,3306,1741692372,/etc/passwd,Data Exfiltration,High,1
+198.51.100.7,3389,1741709354,/etc/passwd,Data Exfiltration,High,1
+10.0.0.3,25,1741705116,nmap_scan,Reconnaissance,Medium,1
+67.205.146.11,3389,1741709463,/etc/passwd,Data Exfiltration,High,1
+89.187.163.71,8080,1741704628,/login,Brute Force,Medium,1
+45.33.32.156,3389,1741675257,nmap_scan,Reconnaissance,Medium,1
+198.51.100.7,8080,1741681106,admin' OR '1'='1,SQL Injection,High,1
+23.94.5.1,25,1741692969,admin' OR '1'='1,SQL Injection,High,1
+202.54.1.3,3389,1741709682,/shellshock_exploit,Exploitation,High,1
+144.202.23.31,3389,1741693937,sqlmap/1.5,SQL Injection,High,1
+192.168.1.1,21,1741698821,/etc/passwd,Data Exfiltration,High,1
+209.58.178.32,80,1741685750,admin' OR '1'='1,SQL Injection,High,1
+209.58.178.32,3389,1741673627,sqlmap/1.5,SQL Injection,High,1
+144.202.23.31,25,1741697524,/etc/passwd,Data Exfiltration,High,1
+45.33.32.156,22,1741683913,/wp-login.php,Brute Force,Medium,1
+203.0.113.5,80,1741676437,normal_request,Normal,Low,0
+203.0.113.5,443,1741678869,/wp-login.php,Brute Force,Medium,1
+185.199.108.153,25,1741676868,nmap_scan,Reconnaissance,Medium,1
+209.58.178.32,8080,1741684024,/wp-login.php,Brute Force,Medium,1
+172.16.5.8,80,1741688001,/login,Brute Force,Medium,1
+172.16.5.8,80,1741688086,sqlmap/1.5,SQL Injection,High,1
+202.54.1.3,443,1741675072,sqlmap/1.5,SQL Injection,High,1
+89.187.163.71,8080,1741682355,normal_request,Normal,Low,0
+67.205.146.11,21,1741676838,sqlmap/1.5,SQL Injection,High,1
+89.187.163.71,21,1741678392,nmap_scan,Reconnaissance,Medium,1
+23.94.5.1,8080,1741681724,/login,Brute Force,Medium,1
+144.202.23.31,25,1741702555,/shellshock_exploit,Exploitation,High,1
+172.16.5.8,3389,1741678405,nmap_scan,Reconnaissance,Medium,1
+67.205.146.11,3389,1741676423,/login,Brute Force,Medium,1
+45.33.32.156,443,1741683874,/login,Brute Force,Medium,1
+209.58.178.32,8080,1741684394,/wp-login.php,Brute Force,Medium,1
+172.16.5.8,8080,1741704808,admin' OR '1'='1,SQL Injection,High,1
+198.51.100.7,8080,1741703475,normal_request,Normal,Low,0
+202.54.1.3,25,1741700110,nmap_scan,Reconnaissance,Medium,1
+172.16.5.8,22,1741673528,normal_request,Normal,Low,0
+45.33.32.156,22,1741682116,/etc/passwd,Data Exfiltration,High,1
+198.51.100.7,8080,1741679396,admin' OR '1'='1,SQL Injection,High,1
+192.168.1.1,3306,1741710609,sqlmap/1.5,SQL Injection,High,1
+67.205.146.11,8080,1741692231,nmap_scan,Reconnaissance,Medium,1
+51.15.37.220,22,1741682676,/shellshock_exploit,Exploitation,High,1
+144.202.23.31,80,1741676502,/etc/passwd,Data Exfiltration,High,1
+209.58.178.32,8080,1741710580,/shellshock_exploit,Exploitation,High,1
+202.54.1.3,80,1741709820,normal_request,Normal,Low,0
+10.0.0.3,80,1741712317,nmap_scan,Reconnaissance,Medium,1
+23.94.5.1,443,1741673906,admin' OR '1'='1,SQL Injection,High,1
+185.199.108.153,25,1741698760,nmap_scan,Reconnaissance,Medium,1
+185.199.108.153,8080,1741674626,normal_request,Normal,Low,0
+198.51.100.7,25,1741683743,nmap_scan,Reconnaissance,Medium,1
+203.0.113.5,21,1741686088,admin' OR '1'='1,SQL Injection,High,1
+89.187.163.71,25,1741690797,nmap_scan,Reconnaissance,Medium,1
+23.94.5.1,25,1741700213,/etc/passwd,Data Exfiltration,High,1
+89.187.163.71,3306,1741710001,/wp-login.php,Brute Force,Medium,1
+23.94.5.1,21,1741689576,admin' OR '1'='1,SQL Injection,High,1
+67.205.146.11,3389,1741680002,/etc/passwd,Data Exfiltration,High,1
+209.58.178.32,21,1741700513,nmap_scan,Reconnaissance,Medium,1
+45.33.32.156,3306,1741705873,/login,Brute Force,Medium,1
+89.187.163.71,443,1741678742,/shellshock_exploit,Exploitation,High,1
+144.202.23.31,3306,1741676590,admin' OR '1'='1,SQL Injection,High,1
+23.94.5.1,8080,1741709596,/wp-login.php,Brute Force,Medium,1
+51.15.37.220,8080,1741695217,sqlmap/1.5,SQL Injection,High,1
+23.94.5.1,443,1741706701,nmap_scan,Reconnaissance,Medium,1
+172.16.5.8,443,1741682495,/etc/passwd,Data Exfiltration,High,1
+23.94.5.1,8080,1741678783,/shellshock_exploit,Exploitation,High,1
+209.58.178.32,21,1741701417,admin' OR '1'='1,SQL Injection,High,1
+34.201.32.74,22,1741681678,normal_request,Normal,Low,0
+10.0.0.3,8080,1741680299,/wp-login.php,Brute Force,Medium,1
+67.205.146.11,25,1741685655,sqlmap/1.5,SQL Injection,High,1
+34.201.32.74,3389,1741700052,/login,Brute Force,Medium,1
+172.16.5.8,443,1741696920,nmap_scan,Reconnaissance,Medium,1
+67.205.146.11,21,1741685298,/shellshock_exploit,Exploitation,High,1
+198.51.100.7,3306,1741709613,sqlmap/1.5,SQL Injection,High,1
+192.168.1.1,21,1741686769,sqlmap/1.5,SQL Injection,High,1
+198.51.100.7,3306,1741712986,admin' OR '1'='1,SQL Injection,High,1
+51.15.37.220,21,1741684422,sqlmap/1.5,SQL Injection,High,1
+172.16.5.8,8080,1741680282,/shellshock_exploit,Exploitation,High,1
+198.51.100.7,3306,1741706465,/etc/passwd,Data Exfiltration,High,1
+89.187.163.71,22,1741691692,/wp-login.php,Brute Force,Medium,1
+45.33.32.156,8080,1741692060,/shellshock_exploit,Exploitation,High,1
+185.199.108.153,21,1741699743,normal_request,Normal,Low,0
+89.187.163.71,21,1741702073,/login,Brute Force,Medium,1
+23.94.5.1,21,1741694025,nmap_scan,Reconnaissance,Medium,1
+51.15.37.220,21,1741709112,normal_request,Normal,Low,0
+23.94.5.1,443,1741681919,nmap_scan,Reconnaissance,Medium,1
+10.0.0.3,3306,1741699182,/shellshock_exploit,Exploitation,High,1
+45.33.32.156,8080,1741712545,/wp-login.php,Brute Force,Medium,1
+10.0.0.3,21,1741693245,/wp-login.php,Brute Force,Medium,1
+202.54.1.3,21,1741676011,admin' OR '1'='1,SQL Injection,High,1
+34.201.32.74,21,1741699318,/wp-login.php,Brute Force,Medium,1
+67.205.146.11,22,1741690512,/etc/passwd,Data Exfiltration,High,1
+192.168.1.1,8080,1741676285,sqlmap/1.5,SQL Injection,High,1
+202.54.1.3,3306,1741705196,sqlmap/1.5,SQL Injection,High,1
+202.54.1.3,3306,1741702996,normal_request,Normal,Low,0
+89.187.163.71,80,1741692406,/login,Brute Force,Medium,1
+185.199.108.153,25,1741684295,/etc/passwd,Data Exfiltration,High,1
+45.33.32.156,22,1741680579,/etc/passwd,Data Exfiltration,High,1
+172.16.5.8,22,1741691825,/login,Brute Force,Medium,1
+198.51.100.7,21,1741706659,sqlmap/1.5,SQL Injection,High,1
+67.205.146.11,25,1741712357,nmap_scan,Reconnaissance,Medium,1
+192.168.1.1,80,1741689996,nmap_scan,Reconnaissance,Medium,1
+203.0.113.5,21,1741690083,normal_request,Normal,Low,0
+185.199.108.153,3389,1741706701,/etc/passwd,Data Exfiltration,High,1
+198.51.100.7,22,1741705747,/etc/passwd,Data Exfiltration,High,1
+23.94.5.1,25,1741698610,sqlmap/1.5,SQL Injection,High,1
+45.33.32.156,3306,1741698169,/wp-login.php,Brute Force,Medium,1
+23.94.5.1,80,1741712108,/etc/passwd,Data Exfiltration,High,1
+192.168.1.1,3389,1741706954,nmap_scan,Reconnaissance,Medium,1
+10.0.0.3,8080,1741709680,/login,Brute Force,Medium,1
+34.201.32.74,22,1741676440,sqlmap/1.5,SQL Injection,High,1
+67.205.146.11,8080,1741678145,/etc/passwd,Data Exfiltration,High,1
+192.168.1.1,25,1741712359,admin' OR '1'='1,SQL Injection,High,1
+89.187.163.71,443,1741688634,normal_request,Normal,Low,0
+34.201.32.74,25,1741685855,admin' OR '1'='1,SQL Injection,High,1
+209.58.178.32,8080,1741682474,sqlmap/1.5,SQL Injection,High,1
+203.0.113.5,22,1741681314,/login,Brute Force,Medium,1
+23.94.5.1,80,1741708309,/shellshock_exploit,Exploitation,High,1
+45.33.32.156,443,1741705937,admin' OR '1'='1,SQL Injection,High,1
+23.94.5.1,22,1741689792,nmap_scan,Reconnaissance,Medium,1
+10.0.0.3,25,1741685097,admin' OR '1'='1,SQL Injection,High,1
+67.205.146.11,25,1741698480,/wp-login.php,Brute Force,Medium,1
+51.15.37.220,3306,1741680969,nmap_scan,Reconnaissance,Medium,1
+51.15.37.220,22,1741703787,nmap_scan,Reconnaissance,Medium,1
+185.199.108.153,443,1741702882,/login,Brute Force,Medium,1
+172.16.5.8,25,1741681210,sqlmap/1.5,SQL Injection,High,1
+45.33.32.156,8080,1741682483,/wp-login.php,Brute Force,Medium,1
+172.16.5.8,22,1741700592,admin' OR '1'='1,SQL Injection,High,1
+89.187.163.71,21,1741693836,nmap_scan,Reconnaissance,Medium,1
+144.202.23.31,8080,1741703424,sqlmap/1.5,SQL Injection,High,1
+45.33.32.156,21,1741702870,/login,Brute Force,Medium,1
+10.0.0.3,25,1741697966,/wp-login.php,Brute Force,Medium,1
+203.0.113.5,80,1741695717,/login,Brute Force,Medium,1
+202.54.1.3,21,1741694940,/login,Brute Force,Medium,1
+67.205.146.11,80,1741696276,sqlmap/1.5,SQL Injection,High,1
+203.0.113.5,3306,1741681235,/etc/passwd,Data Exfiltration,High,1
+89.187.163.71,22,1741710348,normal_request,Normal,Low,0
+202.54.1.3,3389,1741712924,/shellshock_exploit,Exploitation,High,1
+144.202.23.31,21,1741703187,/wp-login.php,Brute Force,Medium,1
+172.16.5.8,25,1741701875,sqlmap/1.5,SQL Injection,High,1
+34.201.32.74,3306,1741675563,admin' OR '1'='1,SQL Injection,High,1
+209.58.178.32,25,1741705540,/wp-login.php,Brute Force,Medium,1
+34.201.32.74,80,1741705228,nmap_scan,Reconnaissance,Medium,1
+202.54.1.3,21,1741676150,admin' OR '1'='1,SQL Injection,High,1
+185.199.108.153,443,1741700820,nmap_scan,Reconnaissance,Medium,1
+185.199.108.153,21,1741708835,/shellshock_exploit,Exploitation,High,1
+45.33.32.156,443,1741691782,sqlmap/1.5,SQL Injection,High,1
+198.51.100.7,21,1741673874,nmap_scan,Reconnaissance,Medium,1
+45.33.32.156,8080,1741685294,/login,Brute Force,Medium,1
+209.58.178.32,25,1741679105,/login,Brute Force,Medium,1
+209.58.178.32,8080,1741711006,admin' OR '1'='1,SQL Injection,High,1
+185.199.108.153,80,1741698136,/shellshock_exploit,Exploitation,High,1
+45.33.32.156,21,1741673770,normal_request,Normal,Low,0
+67.205.146.11,25,1741680994,/wp-login.php,Brute Force,Medium,1
+10.0.0.3,21,1741703522,/wp-login.php,Brute Force,Medium,1
+51.15.37.220,443,1741681319,normal_request,Normal,Low,0
+10.0.0.3,8080,1741697473,/login,Brute Force,Medium,1
+23.94.5.1,3306,1741695522,/shellshock_exploit,Exploitation,High,1
+51.15.37.220,80,1741700262,nmap_scan,Reconnaissance,Medium,1
+45.33.32.156,80,1741676653,/etc/passwd,Data Exfiltration,High,1
+10.0.0.3,3389,1741711235,/shellshock_exploit,Exploitation,High,1
+23.94.5.1,8080,1741699239,admin' OR '1'='1,SQL Injection,High,1
+34.201.32.74,3306,1741694110,/login,Brute Force,Medium,1
+10.0.0.3,80,1741685541,/etc/passwd,Data Exfiltration,High,1
+144.202.23.31,80,1741683366,/etc/passwd,Data Exfiltration,High,1
+198.51.100.7,80,1741687231,/login,Brute Force,Medium,1
+34.201.32.74,8080,1741693869,/etc/passwd,Data Exfiltration,High,1
+202.54.1.3,3306,1741708315,/shellshock_exploit,Exploitation,High,1
+51.15.37.220,3306,1741678186,/shellshock_exploit,Exploitation,High,1
+144.202.23.31,80,1741696379,sqlmap/1.5,SQL Injection,High,1
+192.168.1.1,8080,1741712151,/shellshock_exploit,Exploitation,High,1
+185.199.108.153,443,1741701747,/wp-login.php,Brute Force,Medium,1
+34.201.32.74,3389,1741704631,/shellshock_exploit,Exploitation,High,1
+185.199.108.153,3389,1741701746,nmap_scan,Reconnaissance,Medium,1
+23.94.5.1,3389,1741688878,normal_request,Normal,Low,0
+203.0.113.5,3306,1741696445,admin' OR '1'='1,SQL Injection,High,1
+23.94.5.1,25,1741693201,normal_request,Normal,Low,0
+34.201.32.74,8080,1741705482,normal_request,Normal,Low,0
+67.205.146.11,80,1741706196,/shellshock_exploit,Exploitation,High,1
+203.0.113.5,22,1741676776,normal_request,Normal,Low,0
+192.168.1.1,25,1741675039,nmap_scan,Reconnaissance,Medium,1
+51.15.37.220,25,1741696472,/shellshock_exploit,Exploitation,High,1
+45.33.32.156,3389,1741704128,sqlmap/1.5,SQL Injection,High,1
+10.0.0.3,80,1741702807,/etc/passwd,Data Exfiltration,High,1
+203.0.113.5,22,1741701688,/etc/passwd,Data Exfiltration,High,1
+51.15.37.220,443,1741694946,/shellshock_exploit,Exploitation,High,1
+202.54.1.3,8080,1741704590,admin' OR '1'='1,SQL Injection,High,1
+185.199.108.153,8080,1741676286,/etc/passwd,Data Exfiltration,High,1
+192.168.1.1,21,1741703233,nmap_scan,Reconnaissance,Medium,1
+202.54.1.3,3389,1741698514,/wp-login.php,Brute Force,Medium,1
+89.187.163.71,22,1741679066,/shellshock_exploit,Exploitation,High,1
+203.0.113.5,25,1741692615,/wp-login.php,Brute Force,Medium,1
+34.201.32.74,8080,1741696923,/login,Brute Force,Medium,1
+89.187.163.71,3389,1741700709,sqlmap/1.5,SQL Injection,High,1
+192.168.1.1,3389,1741679626,nmap_scan,Reconnaissance,Medium,1
+51.15.37.220,22,1741689501,/etc/passwd,Data Exfiltration,High,1
+34.201.32.74,80,1741711104,normal_request,Normal,Low,0
+67.205.146.11,25,1741687817,nmap_scan,Reconnaissance,Medium,1
+192.168.1.1,8080,1741690736,/login,Brute Force,Medium,1
+34.201.32.74,3389,1741686443,nmap_scan,Reconnaissance,Medium,1
+144.202.23.31,22,1741710200,normal_request,Normal,Low,0
+51.15.37.220,80,1741675733,/login,Brute Force,Medium,1
+209.58.178.32,80,1741678530,/wp-login.php,Brute Force,Medium,1
+198.51.100.7,3389,1741709763,/wp-login.php,Brute Force,Medium,1
+51.15.37.220,22,1741683657,/login,Brute Force,Medium,1
+34.201.32.74,80,1741690319,nmap_scan,Reconnaissance,Medium,1
+198.51.100.7,3306,1741712464,/etc/passwd,Data Exfiltration,High,1
+198.51.100.7,3389,1741694110,sqlmap/1.5,SQL Injection,High,1
+34.201.32.74,21,1741700198,admin' OR '1'='1,SQL Injection,High,1
+45.33.32.156,8080,1741682640,/login,Brute Force,Medium,1
+198.51.100.7,443,1741677318,admin' OR '1'='1,SQL Injection,High,1
+45.33.32.156,21,1741687053,nmap_scan,Reconnaissance,Medium,1
+89.187.163.71,3389,1741693196,/shellshock_exploit,Exploitation,High,1
+198.51.100.7,443,1741680233,normal_request,Normal,Low,0
+89.187.163.71,3389,1741710313,nmap_scan,Reconnaissance,Medium,1
+192.168.1.1,3306,1741693919,/shellshock_exploit,Exploitation,High,1
+144.202.23.31,3389,1741699300,admin' OR '1'='1,SQL Injection,High,1
+34.201.32.74,3306,1741684736,sqlmap/1.5,SQL Injection,High,1
+172.16.5.8,443,1741681306,nmap_scan,Reconnaissance,Medium,1
+67.205.146.11,21,1741683556,/login,Brute Force,Medium,1
+23.94.5.1,3306,1741697682,/login,Brute Force,Medium,1
+144.202.23.31,21,1741692202,/shellshock_exploit,Exploitation,High,1
+89.187.163.71,443,1741708245,nmap_scan,Reconnaissance,Medium,1
+209.58.178.32,25,1741676392,nmap_scan,Reconnaissance,Medium,1
+67.205.146.11,25,1741678943,/etc/passwd,Data Exfiltration,High,1
+185.199.108.153,443,1741698589,/wp-login.php,Brute Force,Medium,1
+34.201.32.74,21,1741696534,nmap_scan,Reconnaissance,Medium,1
+185.199.108.153,3389,1741696711,/wp-login.php,Brute Force,Medium,1
+67.205.146.11,8080,1741707571,/etc/passwd,Data Exfiltration,High,1
+172.16.5.8,8080,1741677059,admin' OR '1'='1,SQL Injection,High,1
+51.15.37.220,3389,1741686824,/wp-login.php,Brute Force,Medium,1
+202.54.1.3,21,1741685395,sqlmap/1.5,SQL Injection,High,1
+10.0.0.3,21,1741681535,normal_request,Normal,Low,0
+34.201.32.74,8080,1741700110,normal_request,Normal,Low,0
+192.168.1.1,21,1741673787,/login,Brute Force,Medium,1
+67.205.146.11,3306,1741704656,/shellshock_exploit,Exploitation,High,1
+51.15.37.220,443,1741703866,/shellshock_exploit,Exploitation,High,1
+172.16.5.8,3306,1741700289,nmap_scan,Reconnaissance,Medium,1
+209.58.178.32,22,1741690714,/wp-login.php,Brute Force,Medium,1
+185.199.108.153,21,1741682782,/etc/passwd,Data Exfiltration,High,1
+51.15.37.220,8080,1741680754,sqlmap/1.5,SQL Injection,High,1
+45.33.32.156,3389,1741682712,/wp-login.php,Brute Force,Medium,1
+144.202.23.31,80,1741674697,sqlmap/1.5,SQL Injection,High,1
+185.199.108.153,3389,1741707897,/shellshock_exploit,Exploitation,High,1
+192.168.1.1,25,1741677512,admin' OR '1'='1,SQL Injection,High,1
+10.0.0.3,25,1741712926,sqlmap/1.5,SQL Injection,High,1
+172.16.5.8,3306,1741686189,/etc/passwd,Data Exfiltration,High,1
+202.54.1.3,3389,1741681753,nmap_scan,Reconnaissance,Medium,1
+185.199.108.153,80,1741700978,/etc/passwd,Data Exfiltration,High,1
+34.201.32.74,3389,1741708052,normal_request,Normal,Low,0
+67.205.146.11,21,1741683675,/login,Brute Force,Medium,1
+10.0.0.3,80,1741706292,admin' OR '1'='1,SQL Injection,High,1
+51.15.37.220,25,1741698966,normal_request,Normal,Low,0
+185.199.108.153,25,1741700267,sqlmap/1.5,SQL Injection,High,1
+144.202.23.31,3306,1741674698,/wp-login.php,Brute Force,Medium,1
+10.0.0.3,22,1741681696,/wp-login.php,Brute Force,Medium,1
+34.201.32.74,22,1741694058,/wp-login.php,Brute Force,Medium,1
+172.16.5.8,25,1741681676,nmap_scan,Reconnaissance,Medium,1
+198.51.100.7,22,1741713227,/etc/passwd,Data Exfiltration,High,1
+203.0.113.5,3306,1741678459,/login,Brute Force,Medium,1
+203.0.113.5,8080,1741676461,/wp-login.php,Brute Force,Medium,1
+144.202.23.31,80,1741699010,sqlmap/1.5,SQL Injection,High,1
+172.16.5.8,25,1741710156,nmap_scan,Reconnaissance,Medium,1
+51.15.37.220,22,1741689043,admin' OR '1'='1,SQL Injection,High,1
+209.58.178.32,3389,1741674003,normal_request,Normal,Low,0
+10.0.0.3,443,1741698184,/wp-login.php,Brute Force,Medium,1
+172.16.5.8,3306,1741685778,normal_request,Normal,Low,0
+67.205.146.11,443,1741700365,normal_request,Normal,Low,0
+51.15.37.220,21,1741708531,/shellshock_exploit,Exploitation,High,1
+10.0.0.3,3389,1741699874,nmap_scan,Reconnaissance,Medium,1
+23.94.5.1,3306,1741685171,sqlmap/1.5,SQL Injection,High,1
+203.0.113.5,3306,1741709955,/etc/passwd,Data Exfiltration,High,1
+172.16.5.8,22,1741698402,nmap_scan,Reconnaissance,Medium,1
+51.15.37.220,80,1741691566,sqlmap/1.5,SQL Injection,High,1
+45.33.32.156,80,1741693928,nmap_scan,Reconnaissance,Medium,1
+172.16.5.8,25,1741686306,admin' OR '1'='1,SQL Injection,High,1
+10.0.0.3,80,1741689001,nmap_scan,Reconnaissance,Medium,1
+209.58.178.32,443,1741683897,/wp-login.php,Brute Force,Medium,1
+45.33.32.156,80,1741680136,/wp-login.php,Brute Force,Medium,1
+51.15.37.220,3306,1741706407,/etc/passwd,Data Exfiltration,High,1
+144.202.23.31,8080,1741693143,nmap_scan,Reconnaissance,Medium,1
+172.16.5.8,21,1741710338,/shellshock_exploit,Exploitation,High,1
+185.199.108.153,22,1741684427,normal_request,Normal,Low,0
+198.51.100.7,80,1741709994,admin' OR '1'='1,SQL Injection,High,1
+202.54.1.3,8080,1741711766,/shellshock_exploit,Exploitation,High,1
+198.51.100.7,3389,1741700468,/shellshock_exploit,Exploitation,High,1
+203.0.113.5,3306,1741706003,/shellshock_exploit,Exploitation,High,1
+23.94.5.1,3389,1741686889,/shellshock_exploit,Exploitation,High,1
+144.202.23.31,25,1741703474,normal_request,Normal,Low,0
+23.94.5.1,25,1741704195,sqlmap/1.5,SQL Injection,High,1
+67.205.146.11,80,1741705598,normal_request,Normal,Low,0
+209.58.178.32,3389,1741698678,/shellshock_exploit,Exploitation,High,1
+185.199.108.153,3306,1741704438,nmap_scan,Reconnaissance,Medium,1
+198.51.100.7,25,1741685781,/login,Brute Force,Medium,1
+209.58.178.32,25,1741673903,normal_request,Normal,Low,0
+23.94.5.1,8080,1741710132,sqlmap/1.5,SQL Injection,High,1
+144.202.23.31,3306,1741711387,/etc/passwd,Data Exfiltration,High,1
+10.0.0.3,25,1741689332,normal_request,Normal,Low,0
+45.33.32.156,443,1741682640,admin' OR '1'='1,SQL Injection,High,1
+202.54.1.3,8080,1741690920,/login,Brute Force,Medium,1
+10.0.0.3,21,1741711974,nmap_scan,Reconnaissance,Medium,1
+198.51.100.7,21,1741703365,normal_request,Normal,Low,0
+45.33.32.156,8080,1741701645,normal_request,Normal,Low,0
+203.0.113.5,3306,1741708713,/shellshock_exploit,Exploitation,High,1
+89.187.163.71,22,1741707246,/login,Brute Force,Medium,1
+89.187.163.71,25,1741694059,nmap_scan,Reconnaissance,Medium,1
+45.33.32.156,25,1741677205,nmap_scan,Reconnaissance,Medium,1
+209.58.178.32,3306,1741690572,normal_request,Normal,Low,0
+202.54.1.3,3306,1741695751,admin' OR '1'='1,SQL Injection,High,1
+202.54.1.3,25,1741701398,admin' OR '1'='1,SQL Injection,High,1
+45.33.32.156,3389,1741676331,sqlmap/1.5,SQL Injection,High,1
+10.0.0.3,25,1741673753,/wp-login.php,Brute Force,Medium,1
+45.33.32.156,3389,1741712019,/shellshock_exploit,Exploitation,High,1
+192.168.1.1,22,1741692705,sqlmap/1.5,SQL Injection,High,1
+10.0.0.3,25,1741684423,/login,Brute Force,Medium,1
+23.94.5.1,3306,1741689782,sqlmap/1.5,SQL Injection,High,1
+34.201.32.74,25,1741678985,/shellshock_exploit,Exploitation,High,1
+172.16.5.8,3389,1741680394,nmap_scan,Reconnaissance,Medium,1
+172.16.5.8,21,1741698767,/wp-login.php,Brute Force,Medium,1
+172.16.5.8,22,1741706522,/shellshock_exploit,Exploitation,High,1
+34.201.32.74,25,1741708136,nmap_scan,Reconnaissance,Medium,1
+202.54.1.3,21,1741708444,sqlmap/1.5,SQL Injection,High,1
+202.54.1.3,25,1741713043,normal_request,Normal,Low,0
+51.15.37.220,443,1741682687,normal_request,Normal,Low,0
+45.33.32.156,22,1741677519,admin' OR '1'='1,SQL Injection,High,1
+209.58.178.32,21,1741707739,/shellshock_exploit,Exploitation,High,1
+51.15.37.220,3306,1741695693,/etc/passwd,Data Exfiltration,High,1
+203.0.113.5,80,1741709664,admin' OR '1'='1,SQL Injection,High,1
+67.205.146.11,80,1741702230,/login,Brute Force,Medium,1
+144.202.23.31,3389,1741703560,admin' OR '1'='1,SQL Injection,High,1
+10.0.0.3,80,1741679463,admin' OR '1'='1,SQL Injection,High,1
+209.58.178.32,25,1741689967,admin' OR '1'='1,SQL Injection,High,1
+51.15.37.220,3389,1741693546,/wp-login.php,Brute Force,Medium,1
+144.202.23.31,8080,1741677189,nmap_scan,Reconnaissance,Medium,1
+202.54.1.3,21,1741690318,/wp-login.php,Brute Force,Medium,1
+34.201.32.74,80,1741686221,normal_request,Normal,Low,0
+202.54.1.3,80,1741710862,/etc/passwd,Data Exfiltration,High,1
+89.187.163.71,21,1741677967,nmap_scan,Reconnaissance,Medium,1
+192.168.1.1,443,1741686748,sqlmap/1.5,SQL Injection,High,1
+198.51.100.7,21,1741675140,nmap_scan,Reconnaissance,Medium,1
+23.94.5.1,3306,1741679378,sqlmap/1.5,SQL Injection,High,1
+203.0.113.5,443,1741707023,normal_request,Normal,Low,0
+67.205.146.11,3389,1741711112,/etc/passwd,Data Exfiltration,High,1
+144.202.23.31,8080,1741690978,/login,Brute Force,Medium,1
+198.51.100.7,8080,1741685258,nmap_scan,Reconnaissance,Medium,1
+172.16.5.8,3389,1741712665,sqlmap/1.5,SQL Injection,High,1
+192.168.1.1,22,1741695858,sqlmap/1.5,SQL Injection,High,1
+51.15.37.220,8080,1741691798,/etc/passwd,Data Exfiltration,High,1
+198.51.100.7,25,1741676685,normal_request,Normal,Low,0
+209.58.178.32,3306,1741676415,/login,Brute Force,Medium,1
+185.199.108.153,3306,1741677101,admin' OR '1'='1,SQL Injection,High,1
+192.168.1.1,25,1741700487,normal_request,Normal,Low,0
+89.187.163.71,443,1741687964,sqlmap/1.5,SQL Injection,High,1
+23.94.5.1,22,1741686616,/login,Brute Force,Medium,1
+203.0.113.5,21,1741678739,/wp-login.php,Brute Force,Medium,1
+185.199.108.153,443,1741707115,nmap_scan,Reconnaissance,Medium,1
+10.0.0.3,21,1741674448,sqlmap/1.5,SQL Injection,High,1
+34.201.32.74,3389,1741693336,/shellshock_exploit,Exploitation,High,1
+192.168.1.1,3389,1741696532,/etc/passwd,Data Exfiltration,High,1
+202.54.1.3,3306,1741680042,sqlmap/1.5,SQL Injection,High,1
+89.187.163.71,25,1741679157,/wp-login.php,Brute Force,Medium,1
+198.51.100.7,8080,1741689952,/login,Brute Force,Medium,1
+203.0.113.5,22,1741696867,normal_request,Normal,Low,0
+51.15.37.220,8080,1741676201,/wp-login.php,Brute Force,Medium,1
+34.201.32.74,25,1741688147,/shellshock_exploit,Exploitation,High,1
+203.0.113.5,3306,1741694314,sqlmap/1.5,SQL Injection,High,1
+67.205.146.11,80,1741684923,/etc/passwd,Data Exfiltration,High,1
+144.202.23.31,8080,1741695274,/shellshock_exploit,Exploitation,High,1
+202.54.1.3,8080,1741700747,/shellshock_exploit,Exploitation,High,1
+34.201.32.74,3389,1741698363,nmap_scan,Reconnaissance,Medium,1
+23.94.5.1,3389,1741696765,/wp-login.php,Brute Force,Medium,1
+202.54.1.3,8080,1741685017,normal_request,Normal,Low,0
+144.202.23.31,3306,1741708860,/wp-login.php,Brute Force,Medium,1
+10.0.0.3,80,1741685600,normal_request,Normal,Low,0
+185.199.108.153,8080,1741694717,admin' OR '1'='1,SQL Injection,High,1
+10.0.0.3,3389,1741676987,admin' OR '1'='1,SQL Injection,High,1
+172.16.5.8,3306,1741686046,/login,Brute Force,Medium,1
+51.15.37.220,8080,1741688990,/shellshock_exploit,Exploitation,High,1
+10.0.0.3,80,1741686760,/etc/passwd,Data Exfiltration,High,1
+202.54.1.3,8080,1741701877,/shellshock_exploit,Exploitation,High,1
+198.51.100.7,3306,1741698078,/etc/passwd,Data Exfiltration,High,1
+198.51.100.7,3389,1741708401,admin' OR '1'='1,SQL Injection,High,1
+34.201.32.74,80,1741708935,normal_request,Normal,Low,0
+51.15.37.220,8080,1741699985,nmap_scan,Reconnaissance,Medium,1
+198.51.100.7,8080,1741683251,/wp-login.php,Brute Force,Medium,1
+89.187.163.71,3389,1741675684,/login,Brute Force,Medium,1
+185.199.108.153,25,1741697941,normal_request,Normal,Low,0
+89.187.163.71,3306,1741695901,/etc/passwd,Data Exfiltration,High,1
+198.51.100.7,3306,1741704127,/wp-login.php,Brute Force,Medium,1
+202.54.1.3,25,1741676511,/login,Brute Force,Medium,1
+34.201.32.74,3389,1741692155,/etc/passwd,Data Exfiltration,High,1
+34.201.32.74,8080,1741704162,/login,Brute Force,Medium,1
+198.51.100.7,3389,1741684305,normal_request,Normal,Low,0
+192.168.1.1,22,1741683036,/login,Brute Force,Medium,1
+51.15.37.220,21,1741700511,admin' OR '1'='1,SQL Injection,High,1
+45.33.32.156,8080,1741685855,/login,Brute Force,Medium,1
+67.205.146.11,8080,1741707707,/login,Brute Force,Medium,1
+185.199.108.153,8080,1741675964,/login,Brute Force,Medium,1
+67.205.146.11,8080,1741693615,normal_request,Normal,Low,0
+89.187.163.71,25,1741711416,/shellshock_exploit,Exploitation,High,1
+203.0.113.5,25,1741711858,admin' OR '1'='1,SQL Injection,High,1
+185.199.108.153,80,1741680281,sqlmap/1.5,SQL Injection,High,1
+10.0.0.3,443,1741685715,admin' OR '1'='1,SQL Injection,High,1
+172.16.5.8,3389,1741682083,/wp-login.php,Brute Force,Medium,1
+202.54.1.3,22,1741699384,nmap_scan,Reconnaissance,Medium,1
+198.51.100.7,443,1741698504,sqlmap/1.5,SQL Injection,High,1
+45.33.32.156,8080,1741691185,sqlmap/1.5,SQL Injection,High,1
+51.15.37.220,25,1741698444,sqlmap/1.5,SQL Injection,High,1
+89.187.163.71,21,1741693071,/login,Brute Force,Medium,1
+192.168.1.1,3306,1741699784,/wp-login.php,Brute Force,Medium,1
+45.33.32.156,3389,1741699567,/shellshock_exploit,Exploitation,High,1
+67.205.146.11,25,1741691963,sqlmap/1.5,SQL Injection,High,1
+192.168.1.1,21,1741679445,/login,Brute Force,Medium,1
+185.199.108.153,21,1741687239,admin' OR '1'='1,SQL Injection,High,1
+198.51.100.7,8080,1741676530,nmap_scan,Reconnaissance,Medium,1
+203.0.113.5,3389,1741692174,admin' OR '1'='1,SQL Injection,High,1
+67.205.146.11,8080,1741695941,admin' OR '1'='1,SQL Injection,High,1
+23.94.5.1,21,1741680068,sqlmap/1.5,SQL Injection,High,1
+10.0.0.3,21,1741687743,normal_request,Normal,Low,0
+185.199.108.153,3389,1741698213,nmap_scan,Reconnaissance,Medium,1
+172.16.5.8,3306,1741691312,/shellshock_exploit,Exploitation,High,1
+51.15.37.220,8080,1741679948,/etc/passwd,Data Exfiltration,High,1
+67.205.146.11,3306,1741688457,/etc/passwd,Data Exfiltration,High,1
+89.187.163.71,8080,1741692986,/shellshock_exploit,Exploitation,High,1
+209.58.178.32,25,1741682549,/shellshock_exploit,Exploitation,High,1
+198.51.100.7,3389,1741690955,admin' OR '1'='1,SQL Injection,High,1
+23.94.5.1,443,1741680672,/shellshock_exploit,Exploitation,High,1
+10.0.0.3,21,1741698779,sqlmap/1.5,SQL Injection,High,1
+67.205.146.11,3306,1741687375,/etc/passwd,Data Exfiltration,High,1
+192.168.1.1,80,1741708625,/wp-login.php,Brute Force,Medium,1
+144.202.23.31,22,1741686849,nmap_scan,Reconnaissance,Medium,1
+144.202.23.31,21,1741676415,admin' OR '1'='1,SQL Injection,High,1
+23.94.5.1,3306,1741712525,/shellshock_exploit,Exploitation,High,1
+89.187.163.71,21,1741684406,/wp-login.php,Brute Force,Medium,1
+202.54.1.3,443,1741709085,/login,Brute Force,Medium,1
+34.201.32.74,25,1741687015,admin' OR '1'='1,SQL Injection,High,1
+198.51.100.7,22,1741678611,nmap_scan,Reconnaissance,Medium,1
+10.0.0.3,443,1741685257,nmap_scan,Reconnaissance,Medium,1
+34.201.32.74,3306,1741680200,/etc/passwd,Data Exfiltration,High,1
+172.16.5.8,3389,1741676418,/login,Brute Force,Medium,1
+203.0.113.5,443,1741706531,/login,Brute Force,Medium,1
+51.15.37.220,22,1741711165,nmap_scan,Reconnaissance,Medium,1
+45.33.32.156,22,1741704156,sqlmap/1.5,SQL Injection,High,1
+23.94.5.1,80,1741683880,sqlmap/1.5,SQL Injection,High,1
+144.202.23.31,443,1741677781,admin' OR '1'='1,SQL Injection,High,1
+34.201.32.74,21,1741688745,/shellshock_exploit,Exploitation,High,1
+144.202.23.31,80,1741710869,normal_request,Normal,Low,0
+209.58.178.32,8080,1741687699,nmap_scan,Reconnaissance,Medium,1
+34.201.32.74,25,1741699154,sqlmap/1.5,SQL Injection,High,1
+198.51.100.7,25,1741710697,admin' OR '1'='1,SQL Injection,High,1
+45.33.32.156,3389,1741710434,sqlmap/1.5,SQL Injection,High,1
+172.16.5.8,3306,1741701687,/wp-login.php,Brute Force,Medium,1
+23.94.5.1,21,1741687235,/wp-login.php,Brute Force,Medium,1
+89.187.163.71,80,1741682849,nmap_scan,Reconnaissance,Medium,1
+198.51.100.7,21,1741676837,/etc/passwd,Data Exfiltration,High,1
+192.168.1.1,25,1741687850,/etc/passwd,Data Exfiltration,High,1
+198.51.100.7,22,1741681836,/wp-login.php,Brute Force,Medium,1
+34.201.32.74,443,1741685630,nmap_scan,Reconnaissance,Medium,1
+45.33.32.156,25,1741702923,/wp-login.php,Brute Force,Medium,1
+51.15.37.220,22,1741680315,/wp-login.php,Brute Force,Medium,1
+51.15.37.220,80,1741711842,admin' OR '1'='1,SQL Injection,High,1
+203.0.113.5,443,1741704511,normal_request,Normal,Low,0
+198.51.100.7,22,1741680359,/wp-login.php,Brute Force,Medium,1
+10.0.0.3,443,1741692555,nmap_scan,Reconnaissance,Medium,1
+10.0.0.3,443,1741695137,sqlmap/1.5,SQL Injection,High,1
+192.168.1.1,443,1741675888,/login,Brute Force,Medium,1
+89.187.163.71,22,1741699011,sqlmap/1.5,SQL Injection,High,1
+23.94.5.1,443,1741680428,/shellshock_exploit,Exploitation,High,1
+202.54.1.3,21,1741691731,/wp-login.php,Brute Force,Medium,1
+45.33.32.156,21,1741696129,sqlmap/1.5,SQL Injection,High,1
+198.51.100.7,3389,1741696764,sqlmap/1.5,SQL Injection,High,1
+23.94.5.1,22,1741700542,/shellshock_exploit,Exploitation,High,1
+23.94.5.1,80,1741682291,/etc/passwd,Data Exfiltration,High,1
+203.0.113.5,443,1741673294,nmap_scan,Reconnaissance,Medium,1
+202.54.1.3,3306,1741688385,/shellshock_exploit,Exploitation,High,1
+34.201.32.74,22,1741707707,/etc/passwd,Data Exfiltration,High,1
+51.15.37.220,25,1741690336,/etc/passwd,Data Exfiltration,High,1
+51.15.37.220,8080,1741709223,/login,Brute Force,Medium,1
+23.94.5.1,25,1741673811,/wp-login.php,Brute Force,Medium,1
+10.0.0.3,25,1741693340,/login,Brute Force,Medium,1
