@@ -1,0 +1,129 @@
+name: Build, Test, and Deploy Cybersecurity System
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  
+  # ---------------- BUILD STAGE ---------------- #
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🔄 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 📦 Install Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y zip
+
+      - name: 🐍 Install Python Dependencies
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+          pip install -r requirements.txt
+
+      - name: 📂 Package Lambda Functions
+        run: |
+          zip -r data_collector.zip data_collection/data_collector.py
+          zip -r threat_detector.zip data_collection/threat_detector.py
+          zip -r adaptive_learning.zip data_collection/adaptive_learning.py
+          zip -r predict.zip ml_model/predict.py
+
+      - name: 🗂️ Archive Build Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: packaged-code
+          path: |
+            data_collector.zip
+            threat_detector.zip
+            adaptive_learning.zip
+            predict.zip
+
+  # ---------------- TEST STAGE ---------------- #
+  test:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🔄 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Install Dependencies
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+          pip install -r requirements.txt
+
+      - name: 🧪 Run Malware Simulations
+        run: |
+          python malware_simulation/malware_sql_injection.py
+          python malware_simulation/malware_brute_force.py
+          python malware_simulation/malware_ransomware.py
+          python malware_simulation/malware_xss.py
+
+      - name: 🔎 Run ML Model Predictions
+        run: |
+          python ml_model/train_model.py
+          python ml_model/predict.py
+
+      - name: 📊 Generate Sample Report
+        run: python reports/generate_report.py
+
+      - name: ✅ Run Unit Tests
+        run: |
+          pytest tests/
+
+  # ---------------- DEPLOY STAGE ---------------- #
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🔄 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 🛠️ Install AWS CLI
+        run: |
+          curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+          unzip awscliv2.zip
+          sudo ./aws/install
+
+      - name: 🔐 Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+
+      - name: ⬇️ Download Build Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: packaged-code
+
+      - name: 🚀 Deploy Lambda Functions
+        run: |
+          aws lambda update-function-code \
+            --function-name DataCollector \
+            --zip-file fileb://data_collector.zip
+          
+          aws lambda update-function-code \
+            --function-name ThreatDetector \
+            --zip-file fileb://threat_detector.zip
+          
+          aws lambda update-function-code \
+            --function-name AdaptiveLearning \
+            --zip-file fileb://adaptive_learning.zip
+          
+          aws lambda update-function-code \
+            --function-name PredictThreats \
+            --zip-file fileb://predict.zip
+
+      - name: 🚨 Deploy Step Functions
+        run: |
+          aws stepfunctions update-state-machine \
+            --state-machine-arn arn:aws:states:us-east-1:123456789012:stateMachine:IncidentResponseWorkflow \
+            --definition file://step_functions/step_function_definition.asl.json
