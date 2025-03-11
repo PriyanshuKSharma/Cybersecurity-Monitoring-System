@@ -1,0 +1,7 @@
+{
+    "status": "Threat Detected",
+    "data": {
+        "ip": "203.0.113.5",
+        "type": "SQL Injection"
+    }
+}
