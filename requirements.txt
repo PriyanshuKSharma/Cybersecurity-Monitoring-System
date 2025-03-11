@@ -1,0 +1,15 @@
+boto3==1.34.17             # AWS SDK for Python (Lambda, CloudWatch, Step Functions)
+pandas==2.1.4              # Data manipulation for dataset creation and ML model training
+scikit-learn==1.3.2        # Machine Learning model (Random Forest Classifier)
+joblib==1.3.2              # Model saving/loading for deployment in AWS Lambda
+flask==3.0.0               # Web framework for the Dashboard UI
+requests==2.32.0           # Updated to match ggshield requirement
+fpdf==1.7.2                # PDF generation for weekly threat reports
+cryptography==43.0.1       # Updated to match ggshield requirement
+gunicorn==21.2.0           # Production-grade WSGI server for Flask deployment
+pytest==7.4.3              # Unit testing for system functionality
+marshmallow==3.18.0        # Added to match ggshield requirement
+platformdirs==3.0.0        # Added to match ggshield requirement
+pyjwt==2.6.0               # Added to match ggshield requirement
+rich==12.5.1               # Added to match ggshield requirement
+urllib3==2.2.2             # Added to match ggshield requirement
