@@ -68,12 +68,14 @@ jobs:
 
       - name: 🔎 Run ML Model Predictions
         run: |
-          pip install pandas
+          source venv/bin/activate
           python ml_model/train_model.py
           python ml_model/predict.py
 
       - name: 📊 Generate Sample Report
-        run: python reports/generate_report.py
+        run:
+          source venv/bin/activate 
+          python reports/generate_report.py
 
       - name: ✅ Run Unit Tests
         run: |
