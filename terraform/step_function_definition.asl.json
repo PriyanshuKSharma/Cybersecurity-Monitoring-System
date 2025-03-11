@@ -1,0 +1,31 @@
+{
+    "StartAt": "DataCollection",
+    "States": {
+        "DataCollection": {
+            "Type": "Task",
+            "Resource": "${data_collector_arn}",
+            "Next": "ThreatDetection"
+        },
+        "ThreatDetection": {
+            "Type": "Task",
+            "Resource": "${threat_detector_arn}",
+            "Next": "IncidentResponse"
+        },
+        "IncidentResponse": {
+            "Type": "Choice",
+            "Choices": [
+                {
+                    "Variable": "$.status",
+                    "StringEquals": "Threat Detected",
+                    "Next": "EndProcess"
+                }
+            ],
+            "Default": "DataCollection"
+        },
+        "EndProcess": {
+            "Type": "Pass",
+            "Result": "Process Completed Successfully",
+            "End": true
+        }
+    }
+}
