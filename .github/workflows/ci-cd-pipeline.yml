@@ -61,7 +61,9 @@ jobs:
           python malware_simulation/malware_xss.py
 
       - name: 📝 Generate Threat Data CSV
-        run: python ml_model/generate_threat_data.py
+        run: 
+          source venv/bin/activate
+          python ml_model/generate_threat_data.py
         
       - name: 🔎 Run ML Model Predictions
         run: |
