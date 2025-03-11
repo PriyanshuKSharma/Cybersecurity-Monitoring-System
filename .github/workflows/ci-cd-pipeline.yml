@@ -68,6 +68,7 @@ jobs:
 
       - name: 🔎 Run ML Model Predictions
         run: |
+          pip install pandas
           python ml_model/train_model.py
           python ml_model/predict.py
 
