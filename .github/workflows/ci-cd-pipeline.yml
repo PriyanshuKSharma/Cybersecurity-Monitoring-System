@@ -65,11 +65,11 @@ jobs:
           source venv/bin/activate
           python ml_model/generate_threat_data.py
         
-      - name: 🔎 Run ML Model Predictions
-        run: |
-          source venv/bin/activate
-          python ml_model/train_model.py
-          python ml_model/predict.py
+      # - name: 🔎 Run ML Model Predictions
+      #   run: |
+      #     source venv/bin/activate
+      #     python ml_model/train_model.py
+      #     python ml_model/predict.py
 
       - name: 📊 Generate Sample Report
         run:
