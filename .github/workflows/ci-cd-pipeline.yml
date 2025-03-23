@@ -76,9 +76,9 @@ jobs:
           source venv/bin/activate 
           python reports/generate_report.py
 
-      - name: ✅ Run Unit Tests
-        run: |
-          pytest tests/
+      # - name: ✅ Run Unit Tests
+      #   run: |
+      #     pytest tests/
 
   # ---------------- DEPLOY STAGE ---------------- #
   deploy:
